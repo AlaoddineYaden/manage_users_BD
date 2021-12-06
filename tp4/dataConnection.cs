@@ -21,7 +21,7 @@ namespace tp4
         /// <returns>une tabeau des informations </returns>
         public DataTable searchItems(String Id)
         {
-            DataTable dt = new DataTable("Personne");
+            DataTable dt = new DataTable();
             try
             {
                 cnx.Open();
@@ -48,7 +48,7 @@ namespace tp4
         /// <returns>retourn un tableau qui contieant tous les id </returns>
         public DataTable selectId()
         {
-            DataTable dt = new DataTable("Personne");
+            DataTable dt = new DataTable();
             try
             {
                 cnx.Open();
